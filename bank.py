@@ -9,11 +9,11 @@ amount2 = int (input("Please enter the second amount (in cents):"))
 
 #creating the two input prompts
 
-floatnumber = amount1 + amount2
+total = amount1 + amount2
 
 #creating the sum of the two inputs
 
-answer = floatnumber / 100
+answer = total / 100
 
 #making the answer into a demical format 
 
