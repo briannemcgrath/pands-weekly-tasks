@@ -9,3 +9,8 @@ This wasn't very efficient.. still searching on a solution for when the the numb
 #Weekly Task 4:  
 02/03/2024
 Simple loop created using information from lecture slides and labs. Have previously worked with loops from a previous diploma so used past knowledge to help with this task. 
+
+Weekly Task 5: 
+02/03/2024
+Used this website https://www.w3schools.com/python/python_datetime.asp to learn about the module datetime. Using datetime.now() to retrieve today's date and determine whether or not it is a weekday or weekend. 
+

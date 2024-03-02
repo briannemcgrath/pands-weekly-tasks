@@ -4,6 +4,8 @@
 #At each each calculate the next value by taking the current value and if it is: 
 #Even = Divide by two
 #Odd  = Multiply by three and add one
+#Print out each answer until it reaches one. Then print out that the answer is one and the program has ended. 
+#Author: Brianne McGrath
 
 i = int (input ("Please enter any positive integer:"))
 #Prompts the user to input their positive integer 
