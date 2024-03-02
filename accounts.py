@@ -3,15 +3,21 @@
 #Output the account number with only the last 4 digits showing and the rest sensored with X
 #Author: Brianne McGrath 
 
-account_number = str (input("Please enter your 10 digit account number:"))
+while True:
+    #Prompt the user to enter their 10 digit account number.
+    account_number =  input("Please enter your 10 digit account number:") 
 
-#prompting the user to input account number 
+    #Validating the input
+    if len(account_number) == 10 and account_number.isdigit():
+        #Replacing the first 6 digits with 'X' to secure the account number
+        secure_account_number = 'X' * 6 + account_number[-4:]
 
-n = 6 
-replacement_str = "XXXXXX"
-secure_account_number = account_number.replace(account_number[0:n], replacement_str, 1)
+        #Printing the secure account number
+        print(secure_account_number)
 
-print (secure_account_number)
+        #Exit the loop since a valid account number has been entered
+        break
 
-#Output shows the account number with the first 6 characters replaced by X's and then the remainder
-#Need to come back and figure out how to do this when a number larger than 10 is input ** 
+    else:
+        #Show an error message for an invalid input (not 10 digits long)
+        print ("Your account number is invalid. Please enter your 10 digit account number:")
