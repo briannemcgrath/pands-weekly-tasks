@@ -15,3 +15,9 @@ Used: https://www.w3schools.com/python/python_datetime.asp to learn about the mo
 Researched Newton's Method of estimation using: https://runestone.academy/ns/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html (this is what I based my formula on) and https://www.toppr.com/guides/python-guide/references/methods-and-functions/python-abs/#:~:text=Python%20abs()%20built%2Din,then%20it%20returns%20its%20magnitude. to use the built-in function to return an absolute value of a numeric value as an argument to the function. Used: https://www.w3schools.com/python/ref_keyword_break.asp to add in break in the while loop. 
 
 #Weekly Task 3: Went back to work on this code and make it more efficient. Used https://www.geeksforgeeks.org/how-to-use-while-true-in-python/ and learnings from Week 4 lectures to add in loops to the code. I think it's more efficient now and can now factor in if an account number longer/less than 10 digits has been input. 
+
+#Weekly Taksk 7: 
+Websites Used: 
+https://realpython.com/python-command-line-arguments/ 
+https://www.w3schools.com/python/python_try_except.asp
+https://pythonbasics.org/try-except/
