@@ -21,3 +21,9 @@ Websites Used:
 https://realpython.com/python-command-line-arguments/ 
 https://www.w3schools.com/python/python_try_except.asp
 https://pythonbasics.org/try-except/
+
+#Weekly Task 8: 
+Wesbites Used:
+https://www.geeksforgeeks.org/plotting-histogram-in-python-using-matplotlib/ 
+https://matplotlib.org/stable/gallery/color/named_colors.html 
+https://numpy.org/devdocs/reference/random/generated/numpy.random.normal.html 
